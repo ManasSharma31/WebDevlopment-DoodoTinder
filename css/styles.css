@@ -1,0 +1,154 @@
+ /* body{
+  font-family: 'Montserrat',serif;
+}  */
+#title{
+  background-color: #ff4c68;
+}
+
+h1
+{
+  color: white;
+  font-family:'Montserrat-Black',serif;
+  font-size: 3.5rem;
+  line-height: 1;
+}
+h2{
+font-family:'Montserrat-Bold',sans-serif;
+font-weight: 700;
+}
+h3{
+  font-family:'Montserrat-Black',sans-serif;
+  font-weight: 700;
+}
+p{
+  color: 8f8f8f;
+  font-family: 'Montserrat',serif;
+}
+
+.container-fluid{
+  padding: 3% 10% 8%;
+}
+.title-img{
+  width: 50%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 25%;
+}
+/* Navbar */
+.navbar{
+  padding-bottom: 32px;
+  padding-left: 0px;
+}
+.nav-item{
+  padding: 0 10px;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* Download-Button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* The Three Icons */
+
+#features{
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  padding: 7% 15%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials{
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+}
+
+.testimonial-img{
+  width: 120px;
+  margin: 10px;
+  border-radius: 100%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Press Section
+ */
+
+ #press{
+     background-color: #ef8172;
+     text-align: center;
+     padding-bottom: 3%;
+ }
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+ /* Card Section
+  */
+
+  #pricing{
+    text-align: center;
+    padding: 100px;
+  }
+  .card-col{
+    padding: 3% 2%;
+  }
+
+  @media (max-width:1000px)
+  {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  }
+
+/* CTA SECTION */
+#cta{
+
+  text-align: center;
+  color: #fff;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+
+}
+.cta-title
+{
+width: 75%;
+font-weight: bold;
+font-size: 2.5rem;
+font-family: 'Montserrat-Black',sans-serif;
+margin: auto;
+}
+
+/* FOOTER */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.footer-icons{
+  color: #000;
+  margin:20px 10px;
+
+}
+.footer-icons:hover{
+  color:#ff4c68;
+}
